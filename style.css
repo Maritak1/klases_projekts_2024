@@ -1,0 +1,38 @@
+.ietvars {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(224, 235, 235);
+}
+
+h1 {
+    text-align: center;
+    background: rgb(229, 171, 255);
+    color:rgb(127, 193, 247)
+}
+
+ul {
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+.spēles_lauk {
+    width: 500px;
+    background: rgb(229, 166, 241);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloks {
+    display: inline-block;
+    background: rgb(154, 238, 231);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    font-size: 45px;
+}
