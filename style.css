@@ -8,7 +8,7 @@
 h1 {
     text-align: center;
     background: rgb(229, 171, 255);
-    color:rgb(127, 193, 247)
+    color:rgb(101, 176, 236)
 }
 
 ul {
@@ -22,7 +22,7 @@ li {
 
 .spēles_lauk {
     width: 500px;
-    background: rgb(229, 166, 241);
+    background: rgb(216, 164, 226);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -30,9 +30,41 @@ li {
 
 .bloks {
     display: inline-block;
-    background: rgb(154, 238, 231);
+    background: rgb(102, 207, 199);
     width: 100px;
     height: 100px;
     margin: 5px;
     font-size: 45px;
 }
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(235, 121, 235);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(66, 51, 199);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: rgb(150, 99, 192);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:link, a:visited {
+    background-color: #d27ee7;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(147, 98, 180);
+  }
