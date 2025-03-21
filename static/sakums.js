@@ -8,5 +8,5 @@ function saktSpeli()
     else
     {
         window.location = 'spele#' + ievaditsVards;
-    }
+    }    
 }
